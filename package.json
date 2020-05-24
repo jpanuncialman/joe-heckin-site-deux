@@ -1,0 +1,12 @@
+{
+  "name": "2020-personal-site",
+  "version": "1.0.0",
+  "description": "Site",
+  "main": "index.js",
+  "repository": "git@github.com:jpanuncialman/joe-heckin-site-deux.git",
+  "author": "jpanuncialman <joep@hzdg.com>",
+  "license": "MIT",
+  "scripts": {
+    "gatsby-build": "cd personal-site && gatsby build"
+  }
+}
