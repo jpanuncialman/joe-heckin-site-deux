@@ -1,11 +1,11 @@
 {
   "root": true,
+  "api": {
+    "projectId": "gctzsyas",
+    "dataset": "production"
+  },
   "project": {
     "name": "Personal Site 2020"
-  },
-  "api": {
-    "projectId": "1zr11chx",
-    "dataset": "production"
   },
   "plugins": [
     "@sanity/base",
