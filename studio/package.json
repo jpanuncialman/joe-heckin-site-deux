@@ -9,7 +9,7 @@
   "scripts": {
     "start": "sanity start",
     "test": "sanity check",
-    "build": "lerna bootstrap && sanity build"
+    "build-studio": "sanity build"
   },
   "keywords": [
     "sanity"

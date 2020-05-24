@@ -8,5 +8,8 @@
   "license": "MIT",
   "scripts": {
     "gatsby-build": "cd personal-site && gatsby build"
+  },
+  "dependencies": {
+    "lerna": "^3.21.0"
   }
 }
