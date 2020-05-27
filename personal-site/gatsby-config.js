@@ -33,7 +33,7 @@ module.exports = {
     {
       resolve: "gatsby-source-sanity",
       options: {
-        projectId: "1zr11chx",
+        projectId: "gctzsyas",
         dataset: "production",
       },
     },

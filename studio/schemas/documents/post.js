@@ -7,19 +7,16 @@ export default {
       title: "Title",
       name: "title",
       type: "string",
-      validation: (Rule) => Rule.required(),
     },
     {
       title: "Date",
       name: "date",
       type: "datetime",
-      validation: (Rule) => Rule.required(),
     },
     {
       title: "Description",
       name: "description",
       type: "string",
-      validation: (Rule) => Rule.required(),
     },
     {
       title: "Content",

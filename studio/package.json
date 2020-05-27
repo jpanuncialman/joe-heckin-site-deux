@@ -9,7 +9,8 @@
   "scripts": {
     "start": "sanity start",
     "test": "sanity check",
-    "build-studio": "yarn lerna bootstrap && sanity build"
+    "build-studio": "yarn lerna bootstrap && sanity build",
+    "graphql-deploy": "sanity graphql deploy --playground"
   },
   "keywords": [
     "sanity"
@@ -19,6 +20,7 @@
     "@sanity/cli": "^1.149.13",
     "@sanity/components": "^1.149.15",
     "@sanity/core": "^1.149.13",
+    "@sanity/dashboard": "^1.149.15",
     "@sanity/default-layout": "^1.149.15",
     "@sanity/default-login": "^1.149.11",
     "@sanity/desk-tool": "^1.149.15",
