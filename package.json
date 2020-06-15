@@ -7,9 +7,11 @@
   "author": "jpanuncialman <joep@hzdg.com>",
   "license": "MIT",
   "scripts": {
-    "gatsby-build": "cd personal-site && gatsby build"
+    "gatsby-build": "cd personal-site && gatsby build",
+    "dev": "lerna run dev --parallel"
   },
   "dependencies": {
+    "@sanity/block-content-to-react": "^2.0.7",
     "lerna": "^3.21.0"
   }
 }

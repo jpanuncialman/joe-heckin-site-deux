@@ -1,29 +1,20 @@
 export default {
-  title: "Page",
-  name: "sitePage",
+  title: "Home",
+  name: "siteHome",
   type: "document",
   fields: [
     {
-      title: "Page Title",
+      title: "Home Title",
       name: "title",
       type: "string",
     },
     {
-      name: "slug",
-      title: "Slug",
-      type: "slug",
-      options: {
-        source: "title",
-        maxLength: 96,
-      },
-    },
-    {
-      title: "Page Description",
+      title: "Home Description",
       name: "description",
       type: "string",
     },
     {
-      title: "Page Content",
+      title: "Home Content",
       name: "content",
       type: "array",
       of: [

@@ -6,6 +6,7 @@ import schemaTypes from "all:part:@sanity/base/schema-type";
 
 import post from "./documents/post";
 import siteSettings from "./documents/siteSettings";
+import home from "./documents/home";
 import page from "./documents/page";
 
 // Then we give our schema to the builder and provide the result to Sanity
@@ -14,5 +15,5 @@ export default createSchema({
   name: "portfolio",
   // Then proceed to concatenate our document type
   // to the ones provided by any plugins that are installed
-  types: schemaTypes.concat([page, post, siteSettings]),
+  types: schemaTypes.concat([home, page, post, siteSettings]),
 });

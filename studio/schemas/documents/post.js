@@ -19,6 +19,12 @@ export default {
       type: "string",
     },
     {
+      title: "Images",
+      name: "images",
+      type: "array",
+      of: [{ type: "image" }],
+    },
+    {
       title: "Content",
       name: "content",
       type: "array",

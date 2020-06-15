@@ -7,6 +7,7 @@
   "author": "Joe Panuncialman <joe@panuncialman.com>",
   "license": "UNLICENSED",
   "scripts": {
+    "dev": "sanity start",
     "start": "sanity start",
     "test": "sanity check",
     "build-studio": "yarn lerna bootstrap && sanity build",
