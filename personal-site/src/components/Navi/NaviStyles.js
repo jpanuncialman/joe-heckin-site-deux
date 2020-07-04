@@ -1,5 +1,5 @@
 import styled, { keyframes } from 'styled-components';
-import { respondTo } from '../../templates/global/global';
+// import { respondTo } from '../../templates/global/global';
 
 export const StyledContainer = styled.div`
 	width: 100vw;
