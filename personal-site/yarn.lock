@@ -932,6 +932,16 @@
   resolved "https://registry.yarnpkg.com/@emotion/unitless/-/unitless-0.7.5.tgz#77211291c1900a700b8a78cfafda3160d76949ed"
   integrity sha512-OWORNpfjMsSSUBVrRBVGECkhWcULOAJz9ZW8uK9qgxD+87M7jHRcvh/A96XXNhXTLmKcoYSQtBEX7lHMO7YRwg==
 
+"@fontsource/dm-mono@^4.2.2":
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/@fontsource/dm-mono/-/dm-mono-4.2.2.tgz#d4329280761345337a8c2f621fd404c2ee4df096"
+  integrity sha512-J9ipdC75E1NTu/tActMV4MXTGV0AH/PY00Q29ABLOu86eMXR7n6UGLzR8chEm60NoauZNJk9X1Ry/z9O7VUlvQ==
+
+"@fontsource/karla@^4.2.2":
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/@fontsource/karla/-/karla-4.2.2.tgz#e8773dadfe6ed4114de4ae04ee3b5ded5945f523"
+  integrity sha512-2BBDL7naLLXTlcW5Ad4iA6D4mVqAiTkQ7Af/o03U7x5MZcl0V7KeemCVOanVq8uZfc0wcfEAeiFmvyTpNnD9ug==
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"

@@ -5,6 +5,8 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@fontsource/dm-mono": "^4.2.2",
+    "@fontsource/karla": "^4.2.2",
     "@sanity/block-content-to-react": "^2.0.7",
     "babel-plugin-styled-components": "^1.10.7",
     "gatsby": "^2.21.35",
