@@ -21,6 +21,7 @@ export const StyledContainer = styled.div`
 	overflow: hidden;
 	animation: ${({ theme }) => keyframes`${theme.animation.fadeIn}`}
 		${({ theme }) => theme.transition.duration} normal;
+	z-dinex: 7;
 `;
 
 export const StyledInnerContainer = styled.ul`

@@ -15,7 +15,11 @@ const NaviHamburger = ({ showNavi, handleShowNavi }): JSX.Element => {
 		let renderArr = [];
 		for (let i = 0; i <= 3; i++) {
 			renderArr.push(
-				<StyledHamburgerBlockLink position={i} showNavi={showNavi} />
+				<StyledHamburgerBlockLink
+					key={`hamburger-line-${i}`}
+					position={i}
+					showNavi={showNavi}
+				/>
 			);
 		}
 		return renderArr;

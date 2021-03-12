@@ -10,6 +10,7 @@ import home from "./documents/home";
 import page from "./documents/page";
 import category from "./documents/category";
 import project from "./documents/project";
+import floatyBois from "./documents/floatyBois";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -24,5 +25,6 @@ export default createSchema({
     category,
     project,
     siteSettings,
+    floatyBois,
   ]),
 });

@@ -23,6 +23,20 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
+"@babel/runtime@^7.12.13":
+  version "7.13.8"
+  resolved "http://npmregistry.hzdg.com/@babel%2fruntime/-/runtime-7.13.8.tgz#cc886a85c072df1de23670dc1aa59fc116c4017c"
+  integrity sha512-CwQljpw6qSayc0fRG1soxHAKs1CnQMOChm4mlQP6My0kf9upVGizj/KhlTTgyUnETmHpcUXjaluNAkteRFuafg==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
+"@babel/runtime@^7.2.0":
+  version "7.12.13"
+  resolved "http://npmregistry.hzdg.com/@babel%2fruntime/-/runtime-7.12.13.tgz#0a21452352b02542db0ffb928ac2d3ca7cb6d66d"
+  integrity sha512-8+3UMPBrjFa/6TtKi/7sehPKqfAm4g6K+YQjyyFOLUTxzOngcRZTlAVY8sc2CORJYqdHQY8gRPHmn+qo15rCBw==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@evocateur/libnpmaccess@^3.1.2":
   version "3.1.2"
   resolved "http://npmregistry.hzdg.com/@evocateur%2flibnpmaccess/-/libnpmaccess-3.1.2.tgz#ecf7f6ce6b004e9f942b098d92200be4a4b1c845"
@@ -96,6 +110,41 @@
     tar "^4.4.10"
     unique-filename "^1.1.1"
     which "^1.3.1"
+
+"@fontsource/crimson-pro@^4.2.1":
+  version "4.2.1"
+  resolved "http://npmregistry.hzdg.com/@fontsource%2fcrimson-pro/-/crimson-pro-4.2.1.tgz#0846ec3941bea66818cd889979297f73c731e1c1"
+  integrity sha512-1L/uGkBjTAt81FoKQrIAhh6nXL2xBNsyHkECFyXWVMVwmkslW68kH1SEBkVU26EJIY/5hZJ2FpLm9XqvfmBhEA==
+
+"@fontsource/dm-mono@^4.2.1":
+  version "4.2.1"
+  resolved "http://npmregistry.hzdg.com/@fontsource%2fdm-mono/-/dm-mono-4.2.1.tgz#5e1b3c9d9aafeb4f19389fafe0e3f143d41a14ec"
+  integrity sha512-X/4schjzmA/shUy9yl8UF/K/HrwpCCjEN+02/DEOXk6+fJZP95ZCVqdZLxJ8vzI6GrpdcBtIwleTdTPAW0cMmA==
+
+"@fontsource/dm-sans@^4.2.1":
+  version "4.2.1"
+  resolved "http://npmregistry.hzdg.com/@fontsource%2fdm-sans/-/dm-sans-4.2.1.tgz#76cc8a6dca92c196b00cec20460bea05942e61b7"
+  integrity sha512-kLPBImOXWzRulMHJEHKrnhaEDcck4Qoc0b2N4qKy94DKDeUdoU3kcb/y9279Ak3GZ+by3JmzT6OMC4f6M5gjeg==
+
+"@fontsource/inknut-antiqua@^4.2.1":
+  version "4.2.1"
+  resolved "http://npmregistry.hzdg.com/@fontsource%2finknut-antiqua/-/inknut-antiqua-4.2.1.tgz#6eb7352e4bb1720509f649f076157dfa10216d0e"
+  integrity sha512-jip9mr3Aao6H9/wzvhIXuKz4DxLMr289S+gjZvzhOt8Qfh0grQ96Z+gRpfl+A1l7Z0CZnl3aJ2QkwWQGJQyrNw==
+
+"@fontsource/karla@^4.2.2":
+  version "4.2.2"
+  resolved "http://npmregistry.hzdg.com/@fontsource%2fkarla/-/karla-4.2.2.tgz#e8773dadfe6ed4114de4ae04ee3b5ded5945f523"
+  integrity sha512-2BBDL7naLLXTlcW5Ad4iA6D4mVqAiTkQ7Af/o03U7x5MZcl0V7KeemCVOanVq8uZfc0wcfEAeiFmvyTpNnD9ug==
+
+"@fontsource/open-sans@^4.2.1":
+  version "4.2.1"
+  resolved "http://npmregistry.hzdg.com/@fontsource%2fopen-sans/-/open-sans-4.2.1.tgz#5c8763a91eb2d0e1a3a4ef61eca3743e4224e9e3"
+  integrity sha512-CfvS4yIrZxBA9FoITkceFUM3HS9MYty8qZJ/Jq1m4NRqQlJX7Jc8KV4k/APG1h16jdp9ilU6VmZbdLwPxXr7Yw==
+
+"@fontsource/playfair-display@^4.2.1":
+  version "4.2.1"
+  resolved "http://npmregistry.hzdg.com/@fontsource%2fplayfair-display/-/playfair-display-4.2.1.tgz#7886e3b9514912703fc03354a799b024d72e1370"
+  integrity sha512-ja2sXyRvMJypJfWE8dnayUEDRsl5CJ3F2JEDpAoiwEcXTWWgHNm2L2Qd4/LQ1U8+4LdGZ4EDmGHMYE5re9nBvQ==
 
 "@lerna/add@3.21.0":
   version "3.21.0"
@@ -1092,6 +1141,11 @@ ansi-styles@^3.2.0, ansi-styles@^3.2.1:
   dependencies:
     color-convert "^1.9.0"
 
+any-base@^1.1.0:
+  version "1.1.0"
+  resolved "http://npmregistry.hzdg.com/any-base/-/any-base-1.1.0.tgz#ae101a62bc08a597b4c9ab5b7089d456630549fe"
+  integrity sha512-uMgjozySS8adZZYePpaWs8cxB9/kdzmpX6SgJZ+wbz1K5eYk5QMYDVJaZKhxyIHUdnnJkfR7SVgStgH7LkGUyg==
+
 any-promise@^1.0.0:
   version "1.3.0"
   resolved "http://npmregistry.hzdg.com/any-promise/-/any-promise-1.3.0.tgz#abc6afeedcea52e809cdc0376aed3ce39635d17f"
@@ -1901,6 +1955,11 @@ dir-glob@^2.2.2:
   dependencies:
     path-type "^3.0.0"
 
+dom-walk@^0.1.0:
+  version "0.1.2"
+  resolved "http://npmregistry.hzdg.com/dom-walk/-/dom-walk-0.1.2.tgz#0c548bef048f4d1f2a97249002236060daa3fd84"
+  integrity sha512-6QvTW9mrGeIegrFXdtQi9pk7O/nSK6lSdXW2eqUspN5LWD7UTji2Fqw5V2YLjBpHEoU9Xl/eUWNpDeZvoyOv2w==
+
 dot-prop@^3.0.0:
   version "3.0.0"
   resolved "http://npmregistry.hzdg.com/dot-prop/-/dot-prop-3.0.0.tgz#1b708af094a49c9a0e7dbcad790aba539dac1177"
@@ -2021,6 +2080,11 @@ escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "http://npmregistry.hzdg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
+
+eslint-import-resolver-alias@^1.1.2:
+  version "1.1.2"
+  resolved "http://npmregistry.hzdg.com/eslint-import-resolver-alias/-/eslint-import-resolver-alias-1.1.2.tgz#297062890e31e4d6651eb5eba9534e1f6e68fc97"
+  integrity sha512-WdviM1Eu834zsfjHtcGHtGfcu+F30Od3V7I9Fi57uhBEwPkjDcii7/yW8jAT+gOhn4P/vOxxNAXbFAKsrrc15w==
 
 esprima@^4.0.0:
   version "4.0.1"
@@ -2162,6 +2226,13 @@ fill-range@^4.0.0:
     repeat-string "^1.6.1"
     to-regex-range "^2.1.0"
 
+filter-invalid-dom-props@^2.0.0:
+  version "2.0.0"
+  resolved "http://npmregistry.hzdg.com/filter-invalid-dom-props/-/filter-invalid-dom-props-2.0.0.tgz#527f1494cb3c4f282a73c43804153eb80c42dc2c"
+  integrity sha1-Un8UlMs8Tygqc8Q4BBU+uAxC3Cw=
+  dependencies:
+    html-attributes "1.1.0"
+
 find-up@^1.0.0:
   version "1.1.2"
   resolved "http://npmregistry.hzdg.com/find-up/-/find-up-1.1.2.tgz#6b2e9822b1a2ce0a60ab64d610eccad53cb24d0f"
@@ -2281,6 +2352,29 @@ function-bind@^1.1.1:
   version "1.1.1"
   resolved "http://npmregistry.hzdg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
   integrity sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==
+
+gatsby-background-image@^1.4.1:
+  version "1.4.1"
+  resolved "http://npmregistry.hzdg.com/gatsby-background-image/-/gatsby-background-image-1.4.1.tgz#d084a029b5fc082bac55870d6508c60be545367c"
+  integrity sha512-AJpdc5L+ufOTrxp23QiHXYxrfS6+6mZNjxsE6X3r3OlbFPAF6tkskqECZt8il7R2rU5opW7SV5PjVspq1eqQiQ==
+  dependencies:
+    "@babel/runtime" "^7.12.13"
+    filter-invalid-dom-props "^2.0.0"
+    global "^4.4.0"
+    short-uuid "^4.1.0"
+    sort-media-queries "^0.2.2"
+
+gatsby-plugin-alias-imports@^1.0.5:
+  version "1.0.5"
+  resolved "http://npmregistry.hzdg.com/gatsby-plugin-alias-imports/-/gatsby-plugin-alias-imports-1.0.5.tgz#44c0856d77acb74b58b89ec725dadd8f5d5b327d"
+  integrity sha512-q58JrSjuVNh4NApamqElR0zqwm55FOb9vFAVb2i2ftPRu0uYzWJkbOz2IN3vSw7a+5PmGzX7VL8XDFXlNHrMNA==
+  dependencies:
+    "@babel/runtime" "^7.2.0"
+
+gatsby-plugin-root-import@^2.0.6:
+  version "2.0.6"
+  resolved "http://npmregistry.hzdg.com/gatsby-plugin-root-import/-/gatsby-plugin-root-import-2.0.6.tgz#72f812ce7a16d67773651c7db1d42f68970ae73c"
+  integrity sha512-eG0D+cVL5djVI5nxuQoZE4wBBL6rUq/KBPqPv+69vYolTXzlyj0+vIkqr2Y/xWt8hTK9BB8IOMltGxUmXIenig==
 
 gauge@~2.7.3:
   version "2.7.4"
@@ -2452,6 +2546,14 @@ glob@^7.1.1, glob@^7.1.3, glob@^7.1.4:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
+global@^4.4.0:
+  version "4.4.0"
+  resolved "http://npmregistry.hzdg.com/global/-/global-4.4.0.tgz#3e7b105179006a323ed71aafca3e9c57a5cc6406"
+  integrity sha512-wv/LAoHdRE3BeTGz53FAamhGlPLhlssK45usmGFThIi4XqnBmjKQ16u+RNbP7WvigRZDxUsM0J3gcQ5yicaL0w==
+  dependencies:
+    min-document "^2.19.0"
+    process "^0.11.10"
+
 globby@^9.2.0:
   version "9.2.0"
   resolved "http://npmregistry.hzdg.com/globby/-/globby-9.2.0.tgz#fd029a706c703d29bdd170f4b6db3a3f7a7cb63d"
@@ -2558,6 +2660,11 @@ hosted-git-info@^2.1.4, hosted-git-info@^2.7.1:
   version "2.8.8"
   resolved "http://npmregistry.hzdg.com/hosted-git-info/-/hosted-git-info-2.8.8.tgz#7539bd4bc1e0e0a895815a2e0262420b12858488"
   integrity sha512-f/wzC2QaWBs7t9IYqB4T3sR1xviIViXJRJTWBlx2Gf3g0Xi5vI7Yy4koXQ1c9OYDGHN9sBy1DQ2AB8fqZBWhUg==
+
+html-attributes@1.1.0:
+  version "1.1.0"
+  resolved "http://npmregistry.hzdg.com/html-attributes/-/html-attributes-1.1.0.tgz#82027a4fac7a6070ea6c18cc3886aea18d6dea09"
+  integrity sha1-ggJ6T6x6YHDqbBjMOIauoY1t6gk=
 
 html-element@^2.0.0:
   version "2.3.1"
@@ -3405,6 +3512,13 @@ mimic-response@^1.0.0:
   resolved "http://npmregistry.hzdg.com/mimic-response/-/mimic-response-1.0.1.tgz#4923538878eef42063cb8a3e3b0798781487ab1b"
   integrity sha512-j5EctnkH7amfV/q5Hgmoal1g2QHFJRraOtmx0JpIqkxhBhI/lJSl1nMpQ45hVarwNETOoWEimndZ4QK0RHxuxQ==
 
+min-document@^2.19.0:
+  version "2.19.0"
+  resolved "http://npmregistry.hzdg.com/min-document/-/min-document-2.19.0.tgz#7bd282e3f5842ed295bb748cdd9f1ffa2c824685"
+  integrity sha1-e9KC4/WELtKVu3SM3Z8f+iyCRoU=
+  dependencies:
+    dom-walk "^0.1.0"
+
 min-indent@^1.0.0:
   version "1.0.0"
   resolved "http://npmregistry.hzdg.com/min-indent/-/min-indent-1.0.0.tgz#cfc45c37e9ec0d8f0a0ec3dd4ef7f7c3abe39256"
@@ -4088,6 +4202,11 @@ process-nextick-args@~2.0.0:
   resolved "http://npmregistry.hzdg.com/process-nextick-args/-/process-nextick-args-2.0.1.tgz#7820d9b16120cc55ca9ae7792680ae7dba6d7fe2"
   integrity sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==
 
+process@^0.11.10:
+  version "0.11.10"
+  resolved "http://npmregistry.hzdg.com/process/-/process-0.11.10.tgz#7332300e840161bda3e69a1d1d91a7d4bc16f182"
+  integrity sha1-czIwDoQBYb2j5podHZGn1LwW8YI=
+
 progress-stream@^2.0.0:
   version "2.0.0"
   resolved "http://npmregistry.hzdg.com/progress-stream/-/progress-stream-2.0.0.tgz#fac63a0b3d11deacbb0969abcc93b214bce19ed5"
@@ -4351,6 +4470,11 @@ redent@^3.0.0:
     indent-string "^4.0.0"
     strip-indent "^3.0.0"
 
+regenerator-runtime@^0.13.4:
+  version "0.13.7"
+  resolved "http://npmregistry.hzdg.com/regenerator-runtime/-/regenerator-runtime-0.13.7.tgz#cac2dacc8a1ea675feaabaeb8ae833898ae46f55"
+  integrity sha512-a54FxoJDIr27pgf7IgeQGxmqUNYrcV338lf/6gH456HZ/PhX+5BcwHXG9ajESmwe6WRO0tAzRUrRmNONWgkrew==
+
 regex-not@^1.0.0, regex-not@^1.0.2:
   version "1.0.2"
   resolved "http://npmregistry.hzdg.com/regex-not/-/regex-not-1.0.2.tgz#1f4ece27e00b0b65e0247a6810e6a85d83a5752c"
@@ -4561,6 +4685,14 @@ shebang-regex@^1.0.0:
   resolved "http://npmregistry.hzdg.com/shebang-regex/-/shebang-regex-1.0.0.tgz#da42f49740c0b42db2ca9728571cb190c98efea3"
   integrity sha1-2kL0l0DAtC2yypcoVxyxkMmO/qM=
 
+short-uuid@^4.1.0:
+  version "4.1.0"
+  resolved "http://npmregistry.hzdg.com/short-uuid/-/short-uuid-4.1.0.tgz#c959f46101b4278e2589d5c85b4c35a385b51764"
+  integrity sha512-Zjerp00N5uUC7ET1mEjz77vY9h5zm6IQivtHxcbnoSIWyK6PD/dQnU5w916F8lzQIJjxBTEbCKsAikE64WxUxQ==
+  dependencies:
+    any-base "^1.1.0"
+    uuid "^8.3.0"
+
 signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.3"
   resolved "http://npmregistry.hzdg.com/signal-exit/-/signal-exit-3.0.3.tgz#a1410c2edd8f077b08b4e253c8eacfcaf057461c"
@@ -4638,6 +4770,13 @@ sort-keys@^2.0.0:
   integrity sha1-ZYU1WEhh7JfXMNbPQYIuH1ZoQSg=
   dependencies:
     is-plain-obj "^1.0.0"
+
+sort-media-queries@^0.2.2:
+  version "0.2.2"
+  resolved "http://npmregistry.hzdg.com/sort-media-queries/-/sort-media-queries-0.2.2.tgz#fddfc1e70d662759091b6a23776f4488683dca1e"
+  integrity sha1-/d/B5w1mJ1kJG2ojd29EiGg9yh4=
+  dependencies:
+    xtend "^4.0.0"
 
 source-map-resolve@^0.5.0:
   version "0.5.3"
@@ -5205,6 +5344,11 @@ uuid@^3.0.1, uuid@^3.3.2:
   resolved "http://npmregistry.hzdg.com/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
   integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
 
+uuid@^8.3.0:
+  version "8.3.2"
+  resolved "http://npmregistry.hzdg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
+  integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
+
 validate-npm-package-license@^3.0.1, validate-npm-package-license@^3.0.3:
   version "3.0.4"
   resolved "http://npmregistry.hzdg.com/validate-npm-package-license/-/validate-npm-package-license-3.0.4.tgz#fc91f6b9c7ba15c857f4cb2c5defeec39d4f410a"
@@ -5336,7 +5480,7 @@ write-pkg@^3.1.0:
     sort-keys "^2.0.0"
     write-json-file "^2.2.0"
 
-xtend@~4.0.1:
+xtend@^4.0.0, xtend@~4.0.1:
   version "4.0.2"
   resolved "http://npmregistry.hzdg.com/xtend/-/xtend-4.0.2.tgz#bb72779f5fa465186b1f438f674fa347fdb5db54"
   integrity sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==

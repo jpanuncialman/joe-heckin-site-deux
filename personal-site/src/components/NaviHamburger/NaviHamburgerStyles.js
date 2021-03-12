@@ -5,6 +5,7 @@ export const StyledHamburgerBlock = styled.div`
 	cursor: pointer;
 	height: 35px;
 	width: 50px;
+	margin-top: 1em;
 `;
 
 export const StyledHamburgerBlockLink = styled.div`

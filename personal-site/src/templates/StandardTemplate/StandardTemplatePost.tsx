@@ -17,10 +17,6 @@ const StandardTemplatePost = (props: PageProps): JSX.Element => {
 			<Container>
 				<Header />
 				{
-					children && children
-					// Home Page
-				}
-				{
 					page && <Body title={page.title} bodyContent={page._rawContent} />
 					//Other Pages
 				}

@@ -1,19 +1,18 @@
 import React from 'react';
 
+import ProjectListItem from '../ProjectListItem/ProjectListItem';
+
+import { StyledList } from './ProjectListStyles';
+
 const ProjectList = ({ posts }): JSX.Element => {
 	// const postsFixed = posts.map(post => post.node);
 	return (
-		<ul>
+		<StyledList>
 			{posts &&
 				posts.map(post => {
-					return (
-						<li>
-							<div>{post.node.title}</div>
-							<div>{post.node.description}</div>
-						</li>
-					);
+					return <ProjectListItem post={post} />;
 				})}
-		</ul>
+		</StyledList>
 	);
 };
 

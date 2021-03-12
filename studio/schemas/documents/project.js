@@ -24,6 +24,22 @@ export default {
       },
     },
     {
+      title: "Hover Image",
+      name: "hoverImage",
+      type: "image",
+    },
+    {
+      title: "External Link",
+      name: "extLink",
+      type: "url",
+    },
+    {
+      title: "Technologies",
+      name: "technologies",
+      type: "array",
+      of: [{ type: "string" }],
+    },
+    {
       title: "Main Images",
       name: "mainImages",
       type: "array",
@@ -34,6 +50,7 @@ export default {
       name: "description",
       type: "string",
     },
+
     {
       title: "Project Content",
       name: "content",

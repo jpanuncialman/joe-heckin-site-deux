@@ -40,7 +40,9 @@ const Navi = ({ handleShowNavi }): JSX.Element => {
 				<StyledX onClick={() => handleShowNavi(false)} />
 				{sitePages &&
 					sitePages.map(page => {
-						return <NaviItem title={page.title} slug={page.slug} />;
+						return (
+							<NaviItem key={page.slug} title={page.title} slug={page.slug} />
+						);
 					})}
 			</StyledInnerContainer>
 		</StyledContainer>

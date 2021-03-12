@@ -5,6 +5,7 @@
  */
 
 // You can delete this file if you're not using it
+const path = require('path');
 
 async function createSitePages(graphql, actions, reporter) {
 	const { createPage } = actions;
@@ -36,9 +37,7 @@ async function createSitePages(graphql, actions, reporter) {
 
 		createPage({
 			path,
-			component: require.resolve(
-				'./src/templates/StandardTemplate/StandardTemplate.tsx'
-			),
+			component: require.resolve('./src/templates/PageTemplate/index.tsx'),
 			context: { id },
 		});
 	});
@@ -68,7 +67,7 @@ async function createProjectPages(graphql, actions, reporter) {
 	projectEdges.forEach(edge => {
 		const id = edge.node.id;
 		const slug = edge.node.slug.current;
-		const path = `/project/${slug}/`;
+		const path = `/projects/${slug}/`;
 
 		reporter.info(`Creating project page: ${path}`);
 
@@ -82,7 +81,21 @@ async function createProjectPages(graphql, actions, reporter) {
 	});
 }
 
+exports.onCreateWebpackConfig = ({ actions }) => {
+	actions.setWebpackConfig({
+		resolve: {
+			alias: {
+				'~blocks': path.resolve(__dirname, 'src/blocks'),
+				'~components': path.resolve(__dirname, 'src/components'),
+				'~pages': path.resolve(__dirname, 'src/pages'),
+				'~templates': path.resolve(__dirname, 'src/templates'),
+				'~utils': path.resolve(__dirname, 'src/utils'),
+			},
+		},
+	});
+};
+
 exports.createPages = async ({ graphql, actions, reporter }) => {
 	await createSitePages(graphql, actions, reporter);
-	await createProjectPages(graphql, actions, reporter);
+	// await createProjectPages(graphql, actions, reporter);
 };

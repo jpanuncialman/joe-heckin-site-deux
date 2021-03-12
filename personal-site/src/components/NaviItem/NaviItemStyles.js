@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Link } from '../../templates/global/global';
+import Link from '~components/Link/index';
 
 export const StyledListItem = styled.li`
 	margin-bottom: 0;

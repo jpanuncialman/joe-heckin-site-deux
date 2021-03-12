@@ -6,6 +6,7 @@ export const Container = styled.div`
 	font-size: ${({ theme }) => theme.fontSizes.standard};
 	line-height: ${({ theme }) => theme.lineHeight};
 	max-width: ${({ theme }) => theme.maxWidth};
+	width: 100%;
 	margin: 0 auto;
 	padding: ${({ theme }) => theme.padding.standardAll};
 
