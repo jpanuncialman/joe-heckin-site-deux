@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "module": "es6",
+      "paths": {
+        "~blocks/*": ["src/blocks/*"],
+        "~components/*": ["src/components/*"],
+        "~pages/*": ["src/pages/*"],
+        "~templates/*": ["src/templates/*"],
+        "~utils/*": ["src/utils/*"]
+      },
+      "jsx": "react"
+    },
+    "exclude": ["node_modules"]
+  }
